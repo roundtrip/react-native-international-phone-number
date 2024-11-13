@@ -35,6 +35,7 @@ interface BasePhoneInput extends TextInputProps {
   customCaret?: ReactNode;
   rtl?: boolean;
   allowZeroAfterCallingCode?: boolean;
+  onLongPress?: () => void;
 }
 
 interface IPhoneInputPropsWithoutRef extends BasePhoneInput {
